@@ -1,0 +1,34 @@
+{
+  "alpha_MJ_kg": {
+    "EH": 2.4792787737831095,
+    "E0": 2.3863637082538425,
+    "EL": 2.2345516273541692
+  },
+  "P0_MW_knots": {
+    "0.5": 297.0492001488095,
+    "0.75": 457.98926507859005,
+    "1.0": 620.5816446940104
+  },
+  "load_definition": "constant PTarget boiler/fuel fraction, not P/P_rated",
+  "section_order": [
+    "HP1",
+    "IP1",
+    "IP2",
+    "IP3",
+    "LP1",
+    "LP2",
+    "LP3",
+    "LP4"
+  ],
+  "extraction_vector_order": [
+    "E0",
+    "EL",
+    "EH"
+  ],
+  "units": {
+    "flow": "kg/s",
+    "enthalpy_drop": "J/kg",
+    "pressure": "Pa",
+    "P0": "MW"
+  }
+}

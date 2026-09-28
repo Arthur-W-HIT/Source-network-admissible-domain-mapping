@@ -1,0 +1,4 @@
+scenario_id,load_frac,T_supply_max_C,T_return_C,pinch_K,flow_multiplier,lp_min_frac,scheme,n,m,source_count,coupled_count,source_coverage,coupled_coverage,Qcap_MW,max_coupled_Q_MW,mean_min_deltaP_per_Q,stratum
+L50_Ts130_Tr50p0_dT5_F1p0_LP30,0.5,130.0,50.0,5.0,1.0,0.3,S1,800,1201,664,563,0.83,0.70375,141.33449147980542,141.2004,0.2322292049685227,main_reference
+L50_Ts130_Tr50p0_dT5_F1p0_LP30,0.5,130.0,50.0,5.0,1.0,0.3,S2a,800,1201,672,597,0.84,0.74625,149.89721778660652,149.7276,0.1622532483474232,main_reference
+L50_Ts130_Tr50p0_dT5_F1p0_LP30,0.5,130.0,50.0,5.0,1.0,0.3,S2b,800,1201,739,739,0.92375,0.92375,185.48978373418555,185.3412,0.2033697804995729,main_reference

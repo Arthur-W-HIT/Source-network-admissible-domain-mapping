@@ -1,0 +1,13 @@
+scheme,constraint,dominant_share
+S1,temperature_flow,0.04824561403508772
+S1,low_grade,0.0
+S1,high_grade,0.9517543859649124
+S1,source_flow,0.0
+S2a,temperature_flow,0.010207412752808245
+S2a,low_grade,0.5984980345588897
+S2a,high_grade,0.391294552688302
+S2a,source_flow,0.0
+S2b,temperature_flow,0.06017338970207586
+S2b,low_grade,0.717405288992939
+S2b,high_grade,0.22242132130498518
+S2b,source_flow,0.0

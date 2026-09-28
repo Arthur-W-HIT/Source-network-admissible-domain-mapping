@@ -1,0 +1,436 @@
+[
+  {
+    "case_id": "c1_050_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.5;4800,0.5]",
+      "r1M": "{59.22588035971396,0.0,0.0}",
+      "r1ReturnH": "{384273.97321428574,500000.0,500000.0}"
+    },
+    "load_frac": 0.5,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_075_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;4800,0.75]",
+      "r1M": "{75.91756054245018,0.0,0.0}",
+      "r1ReturnH": "{438898.2217261905,500000.0,500000.0}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_100_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{84.07771175276146,0.0,0.0}",
+      "r1ReturnH": "{484215.98660714284,500000.0,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c2_050_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.5;4800,0.5]",
+      "r1M": "{47.73869344551013,16.09957533690207,0.0}",
+      "r1ReturnH": "{402359.07886904763,301425.76636904763,500000.0}"
+    },
+    "load_frac": 0.5,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c2_075_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;4800,0.75]",
+      "r1M": "{53.46636354266292,28.979786857374776,0.0}",
+      "r1ReturnH": "{466139.8348214286,319812.06696428574,500000.0}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c2_100_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{46.523000503194666,40.10612191853115,0.0}",
+      "r1ReturnH": "{519787.70386904763,341485.5,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c3_050_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.5;4800,0.5]",
+      "r1M": "{0.0,2.6978199552717452,72.38450458275251}",
+      "r1ReturnH": "{500000.0,301147.4880952381,465317.3854166667}"
+    },
+    "load_frac": 0.5,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3_050_flow_outside",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.5;4800,0.5]",
+      "r1M": "{0.0,2.75177635437718,73.83219467440756}",
+      "r1ReturnH": "{500000.0,301147.4880952381,465317.3854166667}"
+    },
+    "load_frac": 0.5,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3_075_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;4800,0.75]",
+      "r1M": "{0.0,29.406167749967803,54.4232465613329}",
+      "r1ReturnH": "{500000.0,317220.11904761905,557797.3958333334}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3_100_anchor_edge",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,40.77954560746171,44.172523541106635}",
+      "r1ReturnH": "{500000.0,338173.7380952381,633967.3571428572}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c1_050_f100_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.5;4800,0.5]",
+      "r1M": "{69.78502933961904,0.0,0.0}",
+      "r1ReturnH": "{384273.97321428574,500000.0,500000.0}"
+    },
+    "load_frac": 0.5,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_075_f100_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;4800,0.75]",
+      "r1M": "{148.81385152150105,0.0,0.0}",
+      "r1ReturnH": "{438898.2217261905,500000.0,500000.0}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_100_f050",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{114.50904617208845,0.0,0.0}",
+      "r1ReturnH": "{484215.98660714284,500000.0,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_100_f080",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{183.21447387534153,0.0,0.0}",
+      "r1ReturnH": "{484215.98660714284,500000.0,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_100_f080_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{183.21447387534153,0.0,0.0}",
+      "r1ReturnH": "{484215.98660714284,500000.0,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_100_f100",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{229.0180923441769,0.0,0.0}",
+      "r1ReturnH": "{484215.98660714284,500000.0,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c1_100_f100_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{229.0180923441769,0.0,0.0}",
+      "r1ReturnH": "{484215.98660714284,500000.0,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C1"
+  },
+  {
+    "case_id": "c2max_050_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.5;4800,0.5]",
+      "r1M": "{69.72829614453543,1.0700879470004478,0.0}",
+      "r1ReturnH": "{402359.07886904763,301425.76636904763,500000.0}"
+    },
+    "load_frac": 0.5,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c2max_075_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;4800,0.75]",
+      "r1M": "{148.67841548423584,1.1998443603996545,0.0}",
+      "r1ReturnH": "{466139.8348214286,319812.06696428574,500000.0}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c2max_100_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{228.98246369054465,1.6412026060704124,0.0}",
+      "r1ReturnH": "{519787.70386904763,341485.5,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c2max_100_ramp_confirm",
+    "stop_time_s": 9600,
+    "intervals": 9600,
+    "solver": "Radau",
+    "tolerance": 1e-06,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;9600,1.0]",
+      "r1M": "{228.98246369054465,1.6412026060704124,0.0}",
+      "r1ReturnH": "{519787.70386904763,341485.5,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c2mix_100_f080_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{87.67890735146611,93.63568060883603,0.0}",
+      "r1ReturnH": "{519787.70386904763,341485.5,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "c3max_075_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;4800,0.75]",
+      "r1M": "{0.0,2.8252316705793157,158.27611933165355}",
+      "r1ReturnH": "{500000.0,317220.11904761905,557797.3958333334}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3max_075_ramp_confirm",
+    "stop_time_s": 9600,
+    "intervals": 9600,
+    "solver": "Radau",
+    "tolerance": 1e-06,
+    "modifiers": {
+      "PTarget.table": "[0,0.75;9600,0.75]",
+      "r1M": "{0.0,2.8252316705793157,158.27611933165355}",
+      "r1ReturnH": "{500000.0,317220.11904761905,557797.3958333334}"
+    },
+    "load_frac": 0.75,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3max_100_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,4.402946963811171,246.6634387233181}",
+      "r1ReturnH": "{500000.0,338173.7380952381,633967.3571428572}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3max_100_ramp_confirm",
+    "stop_time_s": 9600,
+    "intervals": 9600,
+    "solver": "Radau",
+    "tolerance": 1e-06,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;9600,1.0]",
+      "r1M": "{0.0,4.402946963811171,246.6634387233181}",
+      "r1ReturnH": "{500000.0,338173.7380952381,633967.3571428572}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3mix_100_f080",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,99.17796446350333,89.38820605132273}",
+      "r1ReturnH": "{500000.0,338173.7380952381,633967.3571428572}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "c3mix_100_f100_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,123.97245557937916,111.73525756415339}",
+      "r1ReturnH": "{500000.0,338173.7380952381,633967.3571428572}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "eh_100_f080",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,0.0,197.55109989987147}",
+      "r1ReturnH": "{500000.0,338173.7380952381,633967.3571428572}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C3"
+  },
+  {
+    "case_id": "el_100_f080",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,178.391245052944,0.0}",
+      "r1ReturnH": "{519787.70386904763,341485.5,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C2"
+  },
+  {
+    "case_id": "el_100_f080_ramp",
+    "stop_time_s": 4800,
+    "intervals": 4800,
+    "solver": "Radau",
+    "tolerance": 1e-05,
+    "modifiers": {
+      "PTarget.table": "[0,1.0;4800,1.0]",
+      "r1M": "{0.0,178.391245052944,0.0}",
+      "r1ReturnH": "{519787.70386904763,341485.5,500000.0}"
+    },
+    "load_frac": 1.0,
+    "scheme": "C2"
+  }
+]

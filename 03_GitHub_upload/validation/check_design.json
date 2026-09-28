@@ -1,0 +1,22 @@
+{
+  "source_principal_cases": 10,
+  "source_extended_cases": 15,
+  "sampling_window_s": 200,
+  "standard_stop_time_s": 4800,
+  "confirmation_stop_time_s": 9600,
+  "solver": "Radau",
+  "standard_tolerance": 1e-05,
+  "confirmation_tolerance": 1e-06,
+  "finite_error_check": {
+    "main_scenarios": 12,
+    "category_endpoint_combinations": 16,
+    "neutral_baseline": true,
+    "components": [
+      "enthalpy-drop ratio",
+      "pressure residual",
+      "throughflow residual",
+      "electrical-loss ratio"
+    ]
+  },
+  "interpretation": "Finite deterministic perturbation checks using observed residual ranges; no probabilistic confidence bound."
+}

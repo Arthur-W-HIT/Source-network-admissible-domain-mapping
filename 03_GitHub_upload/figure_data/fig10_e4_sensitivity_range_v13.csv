@@ -1,0 +1,19 @@
+parameter,parameter_label,metric,metric_label,level_count,normalized_response_range,grouped_min,grouped_max
+T_supply_max_C,"Supply-temperature limit, $T_{\mathrm{s,max}}$ (℃)",accepted_fraction_after_source,"Accepted fraction, $f_{\mathrm{acc}}$",2,0.012731958228415075,0.3292437857028387,0.3417188403207385
+T_supply_max_C,"Supply-temperature limit, $T_{\mathrm{s,max}}$ (℃)",Q_max_MW,"Maximum heat output, $Q_{\max}$",2,0.06551168899915177,140.59883362734524,153.01551714222637
+T_supply_max_C,"Supply-temperature limit, $T_{\mathrm{s,max}}$ (℃)",electric_span_MW,"Electric-output span, $\Delta P_{\mathrm{el}}$",2,0.049176463812343564,35.47956868166154,38.706936059047635
+T_return_C,"Return temperature, $T_{\mathrm{r}}$ (℃)",accepted_fraction_after_source,"Accepted fraction, $f_{\mathrm{acc}}$",2,0.0990153786665874,0.2869725826689199,0.38399004335465736
+T_return_C,"Return temperature, $T_{\mathrm{r}}$ (℃)",Q_max_MW,"Maximum heat output, $Q_{\max}$",2,0.10414618681655968,136.93756081112056,156.67678995845105
+T_return_C,"Return temperature, $T_{\mathrm{r}}$ (℃)",electric_span_MW,"Electric-output span, $\Delta P_{\mathrm{el}}$",2,0.07155931305936199,34.745094587017036,39.44141015369213
+pinch_K,"Heat-exchanger approach, $\Delta T_{\mathrm{hx}}$ (K)",accepted_fraction_after_source,"Accepted fraction, $f_{\mathrm{acc}}$",3,0.08627749760679375,0.2917074113644412,0.37624401411093467
+pinch_K,"Heat-exchanger approach, $\Delta T_{\mathrm{hx}}$ (K)",Q_max_MW,"Maximum heat output, $Q_{\max}$",3,0.03849221180919637,142.9484488223837,150.24402643798678
+pinch_K,"Heat-exchanger approach, $\Delta T_{\mathrm{hx}}$ (K)",electric_span_MW,"Electric-output span, $\Delta P_{\mathrm{el}}$",3,0.022411514787352642,36.30695574746874,37.777785207238736
+flow_multiplier,"Flow-capacity factor, $f_{\dot m}$ (-)",accepted_fraction_after_source,"Accepted fraction, $f_{\mathrm{acc}}$",3,0.11189541706936562,0.28038882522440384,0.3900264327620767
+flow_multiplier,"Flow-capacity factor, $f_{\dot m}$ (-)",Q_max_MW,"Maximum heat output, $Q_{\max}$",3,0.26591378706160246,121.3972773009135,171.79694469813418
+flow_multiplier,"Flow-capacity factor, $f_{\dot m}$ (-)",electric_span_MW,"Electric-output span, $\Delta P_{\mathrm{el}}$",3,0.19151714548322743,30.760127901065545,43.32907124561586
+load_frac,"Load fraction, $\lambda$ (-)",accepted_fraction_after_source,"Accepted fraction, $f_{\mathrm{acc}}$",3,0.39670516845078996,0.1675739807325977,0.5562744897070775
+load_frac,"Load fraction, $\lambda$ (-)",Q_max_MW,"Maximum heat output, $Q_{\max}$",3,0.350214404079629,105.1651270537109,171.54261608266498
+load_frac,"Load fraction, $\lambda$ (-)",electric_span_MW,"Electric-output span, $\Delta P_{\mathrm{el}}$",3,0.2700951087515752,26.06598210115313,43.791863044987544
+lp_min_frac,"LP-flow minimum fraction, $\phi_{\mathrm{LP,min}}$ (-)",accepted_fraction_after_source,"Accepted fraction, $f_{\mathrm{acc}}$",4,0.3196270648674381,0.18159237496873679,0.4947700511789315
+lp_min_frac,"LP-flow minimum fraction, $\phi_{\mathrm{LP,min}}$ (-)",Q_max_MW,"Maximum heat output, $Q_{\max}$",4,0.14000439828799194,130.46385207584277,156.99942657852228
+lp_min_frac,"LP-flow minimum fraction, $\phi_{\mathrm{LP,min}}$ (-)",electric_span_MW,"Electric-output span, $\Delta P_{\mathrm{el}}$",4,0.0901926205747925,33.443152725982046,39.362340458447335

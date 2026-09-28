@@ -1,0 +1,7 @@
+domain_role,scheme,mean_domain_retention
+scheme_union,S1,1.0
+scheme_union,S2a,1.0
+scheme_union,S2b,1.0
+fixed_load_frac_0.75,S1,0.9025
+fixed_load_frac_0.75,S2a,0.9575
+fixed_load_frac_0.75,S2b,1.0

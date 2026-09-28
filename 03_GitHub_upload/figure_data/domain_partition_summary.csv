@@ -1,0 +1,7 @@
+domain_role,partition,target_fraction
+scheme_union,common_all_schemes,1.0
+scheme_union,C3_only,0.0
+scheme_union,not_accepted,0.0
+fixed_load_frac_0.75,common_all_schemes,0.9025
+fixed_load_frac_0.75,C3_only,0.0975
+fixed_load_frac_0.75,not_accepted,0.0

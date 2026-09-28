@@ -1,0 +1,53 @@
+{
+  "batch_mode": "main",
+  "t_end_s": 86400,
+  "dt_s": 1,
+  "PDH_nx": 500,
+  "SDH_nx": 500,
+  "PDH_V_base_m3_s": 0.122,
+  "SDH_V_base_m3_s": 0.0305,
+  "flow_min_m3_s": 0.0305,
+  "flow_max_m3_s": 0.122,
+  "room_initial_C": 25,
+  "room_min_C": 16,
+  "room_max_C": 30,
+  "sdh_return_initial_C": 41.44,
+  "heat_exchanger_terminal_diff_C": 5,
+  "T_pipe_max_C": 200,
+  "T_s_op_max_main_C": 130,
+  "T_s_op_max_sensitivity_C": [
+    120,
+    130,
+    150,
+    180
+  ],
+  "ambient_grid_smoke_C": [
+    -20,
+    -10,
+    0
+  ],
+  "ambient_grid_main_C": [
+    -20,
+    -17.5,
+    -15,
+    -12.5,
+    -10,
+    -7.5,
+    -5,
+    -2.5,
+    0
+  ],
+  "N_modules_for_post_scaling": [
+    14,
+    19,
+    24
+  ],
+  "search_initial_step_MW": 0.5,
+  "search_growth_factor": 2.0,
+  "search_max_abs_deltaq_module_MW": 25.0,
+  "search_abs_tol_MW": 0.05,
+  "search_max_bisect_iter": 20,
+  "trace_stride_s": 600,
+  "save_selected_traces": true,
+  "stop_on_first_violation": true
+}

@@ -1,0 +1,16 @@
+scheme,stage_order,stage,retained_fraction,count
+S1,0,Source feasible,1.0,480
+S1,1,+ temperature/flow,0.5854166666666667,281
+S1,2,+ low-grade heat,0.5854166666666667,281
+S1,3,+ high-grade heat,0.5125,246
+S1,4,Final accepted,0.5125,246
+S2a,0,Source feasible,1.0,19680
+S2a,1,+ temperature/flow,0.6010162601626017,11828
+S2a,2,+ low-grade heat,0.39120934959349596,7699
+S2a,3,+ high-grade heat,0.3805386178861789,7489
+S2a,4,Final accepted,0.3805386178861789,7489
+S2b,0,Source feasible,1.0,19680
+S2b,1,+ temperature/flow,0.5806402439024391,11427
+S2b,2,+ low-grade heat,0.3730691056910569,7342
+S2b,3,+ high-grade heat,0.3730691056910569,7342
+S2b,4,Final accepted,0.3730691056910569,7342

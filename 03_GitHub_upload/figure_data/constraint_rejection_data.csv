@@ -1,0 +1,4 @@
+scheme,source_or_power,temperature_flow,low_grade_heat,high_grade_heat
+S1,0,199,0,35
+S2a,0,7852,4129,210
+S2b,0,8253,4085,0
